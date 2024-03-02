@@ -1,0 +1,15 @@
+POST http://localhost:3000/createCat
+Content-Type: application/json 
+
+{
+    "name": "Simon"
+}
+
+###
+
+GET http://localhost:3000/findCat
+Content-Type: application/json
+
+{
+    "name": "Simon"
+}
